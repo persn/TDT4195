@@ -5,7 +5,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>ef76ab5b-0209-49fb-b640-df1c0faa93bf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>greyscale_conversion.py</StartupFile>
+    <StartupFile>intensity_transformations.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -25,6 +25,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="greyscale_conversion.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="intensity_transformations.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
