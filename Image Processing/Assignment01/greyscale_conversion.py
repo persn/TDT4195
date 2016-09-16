@@ -37,8 +37,8 @@ def weighted_average(image):
             image[i,j] = grey
 
 # Load color image
-image = misc.imread('../images/4.1.07-jelly-beans.tiff')
-#image = misc.imread('../images/4.2.06-lake.tiff')
+image = misc.imread('../images/1/4.1.07-jelly-beans.tiff')
+#image = misc.imread('../images/1/4.2.06-lake.tiff')
 
 # Convert image to greyscale
 average(image)

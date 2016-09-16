@@ -13,8 +13,8 @@ def gamma(image, c, gamma):
     return imagelog
 
 # Load color image
-image = misc.imread('../images/5.1.10-aerial.tiff', mode = 'L')
-#image = misc.imread('../images/5.2.09-aerial.tiff', mode = 'L')
+image = misc.imread('../images/1/5.1.10-aerial.tiff', mode = 'L')
+#image = misc.imread('../images/1/5.2.09-aerial.tiff', mode = 'L')
 
 # Apply intensity transformation to image
 image = negative(image)
